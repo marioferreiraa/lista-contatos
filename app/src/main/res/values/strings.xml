@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lista de contatos</string>
+    <string name="title_contacts">Contatos</string>
+    <string name="title_user">Meus dados</string>
+
+    <!--Tela de login e cadastro-->
+    <string name="LABEL_CADASTRO"><u>Cadastre-se agora 😄</u></string>
+    <string name="BUTTON_LOGIN">Entrar</string>
+    <string name="HINT_PASSWORD">Senha</string>
+    <string name="HINT_EMAIL">Email</string>
+    <string name="BUTTON_REGISTER">Cadastrar</string>
+    <string name="LABEL_FORM_CADASTRO">Cadastro</string>
+
+    <!-- Tela de dados do usuário -->
+    <string name="LABEL_MEUS_DADOS">Meus dados</string>
+    <string name="LABEL_EMAIL">Email: </string>
+    <string name="LABEL_ALTERAR_DADOS">Editar informações</string>
+    <string name="LABEL_DESLOGAR">Sair da conta</string>
+    <string name="LABEL_DELETAR_CONTA">Desativar conta</string>
+
+    <!-- Tela de contatos -->
+    <string name="LABEL_NAME">Nome: </string>
+    <string name="LABEL_NUMBER">Telefone: </string>
+    
+</resources>

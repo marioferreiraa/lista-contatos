@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts_name"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="@string/LABEL_NAME"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts_email"
+        app:layout_constraintTop_toBottomOf="@id/contacts_name"
+        android:hint="@string/LABEL_EMAIL"
+        />
+
+    <EditText
+        android:id="@+id/contacts_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/contacts_email"
+        android:hint="@string/LABEL_NUMBER" />
+
+    <Button
+        android:id="@+id/save_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contacts_tel"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/cancel_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:layout_marginEnd="15dp"
+        style="@style/Widget.AppCompat.Light.ActionButton.CloseMode"
+        app:layout_constraintEnd_toStartOf="@+id/save_contact"
+        app:layout_constraintTop_toBottomOf="@id/contacts_tel"
+
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

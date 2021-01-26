@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_contacts">
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:label="@string/title_contacts"
+        android:name="com.example.listadecontatos.view.ContactsFragment"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.listadecontatos.view.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>
